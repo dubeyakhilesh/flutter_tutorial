@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 
 void main(){
   runApp(
-    Text(
-      "I am a flutter developer!!",
-      textDirection: TextDirection.ltr,
+    Center(
+      child: Text(
+        "Hello flutter developer!!!",
+        textDirection: TextDirection.ltr,
+      ),
     )
   );
 }
